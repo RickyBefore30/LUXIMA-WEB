@@ -1,0 +1,10 @@
+@import 'uikit/dist/css/uikit.min.css';
+@import 'base.css';
+
+ /* @font-face {
+    font-family: 'MyFont';
+    src: url('@/assets/fonts/myfont.woff2') format('woff2'),
+         url('@/assets/fonts/myfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}  */
