@@ -12,6 +12,7 @@
 
     @vite(['resources/css/custom.less', 'resources/js/app.js'])
     @yield('styles')
+    <link rel="icon" href="{{ asset('assets/images/favicon.ico') }}">
 
 </head>
 <body>
@@ -67,7 +68,7 @@
         <!--Header PC-->
         <div id="page-header" class="page-header">
             <div id="page-header-inner" class="header-centered uk-light uk-container uk-margin-large-top uk-container-large uk-text-center uk-visible@m uk-inline">
-                <a itemprop="url" class="header-logo-link uk-position-center uk-overlay" href="{{ route('index') }}" rel="home">
+                <a itemprop="url" class="header-logo-link uk-position-center " href="{{ route('index') }}" rel="home">
                     <img src="assets/images/luxima.png" class="qodef-header-logo-image qodef--main" alt="logo main" 
                     itemprop="image"> 
                 </a>

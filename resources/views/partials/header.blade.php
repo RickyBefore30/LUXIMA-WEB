@@ -1,11 +1,11 @@
  <!--Header PC-->
 <div id="page-header" class="page-header">
     <div id="page-header-inner" class="header-centered uk-light uk-container uk-container-large uk-text-center uk-visible@m uk-inline">
-        <a itemprop="url" class="header-logo-link uk-position-center uk-overlay" href="./" rel="home">
+        <a itemprop="url" class="header-logo-link uk-position-center" href="./" rel="home">
             <img src="assets/images/luxima.png" class="qodef-header-logo-image qodef--main" alt="logo main" 
             itemprop="image" srcset="assets/images/luxima.png"> 
         </a>
-        <div class="uk-position-absolute top_nav uk-position-center uk-overlay" uk-grid>
+        <div class="uk-position-absolute top_nav uk-position-center" uk-grid>
             <div class="uk-width-1-4 ">
                 <div id="social_icons_group" class="widget" data-area="header-widget-two"> 
                     <div class="social-icons-group">
