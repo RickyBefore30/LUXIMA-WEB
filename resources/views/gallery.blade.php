@@ -9,7 +9,10 @@
     </style>
 @endsection
 
-@section('banner', 'p3-title-are-img.jpg')
+
+@section('banner')
+    <img src="{{ asset('assets/images/banner/p3-title-are-img.jpg') }}" alt="banner" uk-cover>
+@endsection
 
 
 @section('content')

@@ -37,32 +37,32 @@
                         <div class="uk-grid-small uk-child-width-1-2 uk-child-width-1-3@s uk-text-center " uk-grid >
                             <div class="uk-animation-toggle" tabindex="0">
                                 
-                                <img src="assets/images/small-studio-negarin-2613458.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                <img src="{{ asset('assets/images/small-studio-negarin-2613458.jpg') }}" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
                                 
                             </div>
                             <div class="uk-animation-toggle" tabindex="0">
                                 
-                                <img src="assets/images/small-studio-negarin-2649165.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                <img src="{{ asset('assets/images/small-studio-negarin-2649169.jpg') }}" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
                                 
                             </div>
                             <div class="uk-animation-toggle" tabindex="0">
                                 
-                                <img src="assets/images/small-studio-negarin-2649169.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                <img src="{{ asset('assets/images/small-studio-negarin-2649169.jpg') }}" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
                                 
                             </div>
                             <div class="uk-animation-toggle" tabindex="0">
                                 
-                                <img src="assets/images/small-studio-negarin-2613458.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                <img src="{{ asset('assets/images/small-studio-negarin-2613458.jpg') }}" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
                                 
                             </div>
                             <div class="uk-animation-toggle" tabindex="0">
                                 
-                                <img src="assets/images/small-jin-wedding-5729029.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                <img src="{{ asset('assets/images/small-jin-wedding-5729029.jpg') }}" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
                                 
                             </div>
                             <div class="uk-animation-toggle" tabindex="0">
                                 
-                                <img src="assets/images/small-studio-negarin-2649169.jpg" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
+                                <img src="{{ asset('assets/images/small-studio-negarin-2649169.jpg') }}" width="200px" height="200px" class="ig_foto uk-animation-scale-up" alt="">
                                 
                             </div>
                         </div>
@@ -73,8 +73,8 @@
                 <div class="uk-flex-first ">
                     <div class="footer-item">
                     <a itemprop="url" class="uk-margin" href="https://luxima.id" rel="home">
-                        <img src="assets/images/luxima.png"  alt="logo main" 
-                        itemprop="image" srcset="assets/images/luxima.png"> 
+                        <img src="{{ asset('assets/images/luxima.png') }}"  alt="logo main" 
+                        itemprop="image" srcset="{{ asset('assets/images/luxima.png') }}"> 
                     </a>
                     </div>
                     <div class="footer-item uk-margin" >

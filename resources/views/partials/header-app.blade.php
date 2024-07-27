@@ -42,7 +42,7 @@
 <div id="page-header" class="page-header">
     <div id="page-header-inner" class="header-centered uk-light uk-container uk-margin-large-top uk-container-large uk-text-center uk-visible@m uk-inline">
         <a itemprop="url" class="header-logo-link uk-position-center " href="{{ route('index') }}" rel="home">
-            <img src="assets/images/luxima.png" class="qodef-header-logo-image qodef--main" alt="logo main" 
+            <img src="{{ asset('assets/images/luxima.png') }}" class="qodef-header-logo-image qodef--main" alt="logo main" 
             itemprop="image"> 
         </a>
         <div class="uk-position-absolute top_nav uk-position-center uk-overlay" uk-grid>
@@ -91,7 +91,7 @@
                             <a href>Listings <span uk-drop-parent-icon></span></a>
                             <div class="uk-dropdown">
                                 <ul class="uk-nav uk-dropdown-nav">
-                                    <li class="uk-active"><a href="listing-detail">Listing Items</a></li>
+                                    <li class="uk-active"><a href="{{ route('listing') }}">Listing </a></li>
                                     <li><a href="listing-maps">Listing Maps</a></li>
                                     <li><a href="listing-list">Listing List Compact</a></li>
                                     <li><a href="listing-location">404</a></li>
@@ -102,7 +102,7 @@
                             <a href>Blog <span uk-drop-parent-icon></span></a>
                             <div class="uk-dropdown">
                                 <ul class="uk-nav uk-dropdown-nav">
-                                    <li class="uk-active"><a href="blog-single">Blog single</a></li>
+                                    <li class="uk-active"><a href="{{ route('blog') }}">Blog </a></li>
                                     <li><a href="sidebar-right">Right Sidebar</a></li>
                                     <li><a href="sidebar-left">Left Sidebar</a></li>
                                     <li><a href="no-sidebar">No Sidebar</a></li>
@@ -175,7 +175,7 @@
 <div class="uk-child-width-expand uk-grid-small" uk-grid >
     <div class="uk-card uk-width-expand uk-margin-large-left">
         <a itemprop="url"  href="{{ route('index') }}" rel="home">
-            <img class="logo-mobile" src="assets/images/luxima.png" class="qodef-header-logo-image qodef--main" alt="logo main" 
+            <img class="logo-mobile" src="{{ asset('assets/images/luxima.png') }}" class="qodef-header-logo-image qodef--main" alt="logo main" 
             itemprop="image"> 
         </a>
     </div>
@@ -220,7 +220,7 @@
                                         <a href="#" class="uk-text-uppercase">Listings <span uk-nav-parent-icon></span></a>
                                         
                                             <ul class="uk-nav-sub">
-                                                <li class="uk-active"><a href="{{ route('listing') }}">Listing Items</a></li>
+                                                <li class="uk-active"><a href="{{ route('listing') }}">Listing </a></li>
                                                 <li><a href="listing-maps">Listing Maps</a></li>
                                                 <li><a href="listing-list">Listing List Compact</a></li>
                                                 <li><a href="listing-location">Location Filter</a></li>
@@ -231,7 +231,7 @@
                                         <a href="#" class="uk-text-uppercase">Blog <span uk-nav-parent-icon></span></a>
                                         
                                             <ul class="uk-nav-sub">
-                                                <li class="uk-active"><a href="{{ route('blog') }}">Blog single</a></li>
+                                                <li class="uk-active"><a href="{{ route('blog') }}">Blog </a></li>
                                                 <li><a href="sidebar-right.html">Right Sidebar</a></li>
                                                 <li><a href="sidebar-left.html">Left Sidebar</a></li>
                                                 <li><a href="no-sidebar.html">No Sidebar</a></li>

@@ -1,6 +1,7 @@
         <!-- BANNER -->
         <div class="uk-position-cover uk-height-large">
-            <img src="assets/images/banner/@yield('banner')" alt="" uk-cover>
+
+            @yield('banner')
         </div>
         <!-- TITLE -->
         <div class="uk-inline uk-margin uk-section uk-position-cover" >
