@@ -15,5 +15,6 @@ Route::get('/gallery', [SiteController::class, 'gallery'])->name('gallery');
 Route::get('/packages', [SiteController::class, 'packages'])->name('packages');
 Route::get('/how-it-work', [SiteController::class, 'howItWork'])->name('howItWork');
 Route::get('/blog', [SiteController::class, 'blog'])->name('blog');
+Route::get('/blog-single', [SiteController::class, 'blogDetails'])->name('blogDetails');
 Route::get('/shop', [SiteController::class, 'shop'])->name('shop');
 Route::get('/listing', [SiteController::class, 'listing'])->name('listing');

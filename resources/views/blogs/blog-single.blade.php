@@ -97,7 +97,7 @@
 
                             <article class="uk-article">
 
-                                <h1 class="uk-article-title"><a class="uk-link-reset" href="">Article Title</a></h1>
+                                <h1 class="uk-article-title"><a class="uk-link-reset" href="#">Article Title</a></h1>
     
                                 <hr class="uk-divider-small">
     

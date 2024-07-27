@@ -129,7 +129,7 @@
                                     <a href>Blog <span uk-drop-parent-icon></span></a>
                                     <div class="uk-dropdown">
                                         <ul class="uk-nav uk-dropdown-nav">
-                                            <li><a href="blog-single">Blog single</a></li>
+                                            <li><a href="{{ route('blog') }}">Blog List</a></li>
                                             <li><a href="sidebar-right">Right Sidebar</a></li>
                                             <li><a href="sidebar-left">Left Sidebar</a></li>
                                             <li><a href="no-sidebar">No Sidebar</a></li>
