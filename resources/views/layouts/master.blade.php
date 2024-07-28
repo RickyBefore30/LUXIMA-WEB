@@ -23,6 +23,10 @@
     </div>
 
     <div id="app" class="page_wrapper">
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 61caef9f927f59ea11278a5a1b1d6326a87daa7e
         @include('partials.header')
 
         <!-- Page Outer -->

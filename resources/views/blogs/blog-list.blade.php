@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Blogs')
+@section('title', 'Blogs List')
 
 @section('styles')
     <!-- Additional styles for this page -->
@@ -9,7 +9,7 @@
     </style>
 @endsection
 
-@section('banner', '6.jpg')
+@section('banner', '7.jpg')
 
 
 @section('content')
@@ -97,7 +97,7 @@
 
                             <article class="uk-article">
 
-                                <h1 class="uk-article-title"><a class="uk-link-reset" href="#">Article Title</a></h1>
+                                <h1 class="uk-article-title"><a class="uk-link-reset" href="">Article Title</a></h1>
     
                                 <hr class="uk-divider-small">
     

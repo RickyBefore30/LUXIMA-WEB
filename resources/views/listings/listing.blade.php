@@ -9,8 +9,9 @@
     </style>
 @endsection
 
-@section('banner', '21.jpg')
-
+@section('banner')
+    <img src="{{ asset('assets/images/banner/21.jpg') }}" alt="banner" uk-cover>
+@endsection
 
 @section('content')
 
@@ -68,91 +69,84 @@
                                             <p class="uk-margin-remove text-spacing2 uk-text-italic text-gold" uk-scrollspy="cls: uk-animation-slide-top; delay: 250; repeat: true">Filter by Tags</p>
                                                 <hr class="uk-divider-small">
                                             <div class="uk-flex uk-flex-wrap uk-flex-wrap-around">
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Accessories</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m  uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Food</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Photographers</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Cakes</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Decoration</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Dresses</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Drinks</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Hotels</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Invitations</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Makeup</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Restaurants</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Shoes</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Suits</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">WiFi</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Flower</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Jewellery</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Rings</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Lingerie</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Invitation</label></a>
                                                 </div>
-                                                <div class="uk-width-1-5 uk-card uk-card-small uk-margin-small-bottom">
+                                                <div class="uk-width-1-2 uk-width-1-5@m uk-card uk-card-small uk-margin-small-bottom">
                                                     <a><label class="cursor-pointer"><input class="uk-checkbox uk-form-size uk-margin-small-right" type="checkbox">Comfort</label></a>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- link -->
-                                        <div  uk-grid class="uk-margin-large-top">
-                                            <div class="uk-width-1-5 ">
-                                                <div class="uk-flex uk-flex-left uk-text-center">
-                                                    <div>
-                                                        <p class="margin-top text-spacing2"><a href="#" class="uk-text-primary uk-text-small uk-button-text">FILTER RESULTS</a></p><hr class="uk-divider-small uk-margin-remove">
+                                        <div uk-grid class="uk-margin-large-top uk-width-1-1">
+                                            <div class="uk-margin">
+                                                <div class="uk-flex uk-text-center">
+                                                    <div class="uk-padding-small">
+                                                        <span class="margin-top text-spacing2"><a href="#" class="uk-text-primary uk-text-small uk-button-text">FILTER RESULTS</a></span>
+                                                    </div>
+                                                    <div class="uk-padding-small">
+                                                        <span class="margin-top text-spacing2"><a href="#" class="uk-text-primary uk-text-small uk-button-text">SAVE SEARCH</a></span>
+                                                    </div>
+                                                    <div class="uk-padding-small">
+                                                        <span class="margin-top text-spacing2"><a href="#" class="uk-text-primary uk-text-small uk-button-text">RESET ALL</a></span>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="uk-width-1-5 ">
-                                                <div class="uk-flex uk-flex-left uk-text-center ">
-                                                    <div>
-                                                        <p class="margin-top text-spacing2"><a href="#" class="uk-text-primary uk-text-small uk-button-text">SAVE SEARCH</a></p><hr class="uk-divider-small uk-margin-remove">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="uk-width-1-5 ">
-                                                <div class="uk-flex uk-flex-left uk-text-center ">
-                                                    <div>
-                                                        <p class="margin-top text-spacing2"><a href="#" class="uk-text-primary uk-text-small uk-button-text">RESET ALL</a></p><hr class="uk-divider-small uk-margin-remove">
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                                                                                             
                                             
                                         </div>

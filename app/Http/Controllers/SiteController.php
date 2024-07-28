@@ -50,7 +50,7 @@ class SiteController extends Controller
 
     public function blog()
     {
-        return view('blogs.blog');
+        return view('blogs.blog-list');
     }
 
     public function blogDetails()

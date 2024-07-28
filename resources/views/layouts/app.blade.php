@@ -25,46 +25,8 @@
 
     <div id="app" class="page_wrapper">
 
-        <!--Top Area-->
-        <div class="top_area uk-visible@m">
-            <div class="widget_holder top_area_left">
-                <div class="widget top_area_text_left">
-                    <div class="text_widget">
-                        <span>hello@luxima.id</span>
-                    </div>
-                </div>
-            </div>
-            <div class="widget_holder top_area_center">
-                <div class="widget top_area_text_center">
-                    <div class="text_widget">
-                        <span>Temukan apa yang anda cari</span>
-                    </div>
-                </div>
-            </div>
-            <div class="widget_holder top_area_right">
-                    <div class="widget top_area_text_right">
-                        <div id="login-opener" class="login_opener top-bar-widget"> 
-                            <div class="login-opener user-logged--out">
-                                <a href="#modal-login" class="login-opener" uk-toggle>
-                                    <span class="login-opener-text">Log In</span>
-                                    <span uk-icon="icon: users">
-                                </a> 
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="widget top_area_text_right">
-                        <div id="login-opener" class="login_opener top-bar-widget"> 
-                            <div class="widget">
-                                <a class="" href="#modal-search"  uk-toggle aria-label="Open Search" role="button">
-                                    <span uk-icon="icon: menu">
-                                    </span>
-                                </a>
-                            </div>
-                        </div> 
-                    </div>
-            </div>
-        </div>
 
+<<<<<<< HEAD
         <!--Header PC-->
         <div id="page-header" class="page-header">
             <div id="page-header-inner" class="header-centered uk-light uk-container uk-margin-large-top uk-container-large uk-text-center uk-visible@m uk-inline">
@@ -290,6 +252,9 @@
         
         
         </div>
+=======
+        @include('partials.header-app')
+>>>>>>> 61caef9f927f59ea11278a5a1b1d6326a87daa7e
         
         
 
