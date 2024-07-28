@@ -53,6 +53,16 @@ class SiteController extends Controller
         return view('blogs.blog');
     }
 
+    public function sidebarRigth()
+    {
+        return view('blogs.sidebar-rigth');
+    }
+
+    public function sidebarLeft()
+    {
+        return view('blogs.sidebar-left');
+    }
+
     public function blogDetails()
     {
         return view('blog-single');
@@ -61,6 +71,16 @@ class SiteController extends Controller
     public function listing()
     {
         return view('listings.listing');
+    }
+
+    public function listingMaps()
+    {
+        return view('listings.listing-maps');
+    }
+
+    public function listingList()
+    {
+        return view('listings.listing-list');
     }
 
     public function listingDetails()
