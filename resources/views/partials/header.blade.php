@@ -46,8 +46,8 @@
                                         </li>
                                         <ul class="uk-nav-sub">
                                             <li><a href="{{ route('listing') }}">Listing</a></li>
-                                            <li><a href="#">Listing Maps</a></li>
-                                            <li><a href="#">Listing List</a></li>
+                                            <li><a href="{{ route('listingMaps') }}">Listing Maps</a></li>
+                                            <li><a href="{{ route('listingList') }}">Listing List</a></li>
                                             
                                         </ul>
                                         <li class="uk-nav-divider"></li>
@@ -78,9 +78,9 @@
                             <div class="uk-dropdown">
                                 <ul class="uk-nav uk-dropdown-nav">
                                     <li class="uk-active"><a href="{{ route('blog') }}">Blog </a></li>
-                                    <li><a href="sidebar-right">Right Sidebar</a></li>
-                                    <li><a href="sidebar-left">Left Sidebar</a></li>
-                                    <li><a href="no-sidebar">No Sidebar</a></li>
+                                    <li><a href="{{ route('sidebarRigth') }}">Right Sidebar</a></li>
+                                    <li><a href="{{ route('sidebarLeft') }}">Left Sidebar</a></li>
+                                    <li><a href="{{ route('blog') }}">No Sidebar</a></li>
                                 </ul>
                             </div>
                         </li>
